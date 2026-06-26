@@ -1,6 +1,11 @@
 working_papers:
+  - title: "Media Coverage on Minority Members of Parliament"
+    authors: "William Thengs Egeli & Tevfik Murat Yildirim"
+    description: "Using data from a novel, large dataset on media coverage for MPs, we study whether coverage is biased along gendered, age-related, and racial lines."
+    status: "working paper"
+    pdf: ""
   - title: "Media Coverage on Parliamentary Representatives and Electoral Success"
     authors: "William Thengs Egeli, Tevfik Murat Yildirim & Gunnar Thesen"
-    description: "Building on a novel comparative dataset from four European countries, we investigate how media coverage on members of parliament affects their electoral success."
+    description: "Building on a novel comparative dataset from four European countries, we investigate how media coverage of members of parliament affects their electoral success."
     status: "working paper"
     pdf: ""

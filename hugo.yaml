@@ -11,6 +11,7 @@ params:
   email_university: wegeli1@student.gsu.edu
   photo: img/headshot.jpg
   cv: /pdf/cv.pdf
+  linkedin: "https://www.linkedin.com/in/william-thengs-egeli"
 
   research_interests:
     - Political knowledge

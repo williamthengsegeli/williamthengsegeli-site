@@ -342,6 +342,13 @@ h3 {
 .site-footer a { color: var(--muted); }
 .site-footer a:hover { color: var(--accent); }
 
+/* ─── Research note ─────────────────────────────────────────────── */
+.research-note {
+  font-style: italic;
+  color: var(--muted);
+  font-size: .9375rem;
+}
+
 /* ─── Links ─────────────────────────────────────────────────────── */
 a { color: var(--accent); }
 

@@ -46,14 +46,6 @@
     <div class="bio-text">
       {{ .Content }}
     </div>
-    <div class="research-interests">
-      <h3>Research Interests</h3>
-      <ul class="interest-tags" role="list">
-        {{ range .Site.Params.research_interests }}
-          <li>{{ . }}</li>
-        {{ end }}
-      </ul>
-    </div>
   </div>
 </section>
 
@@ -61,23 +53,7 @@
 <section class="section section-alt" id="research">
   <div class="container">
     <h2>Research</h2>
-
-    {{ with .Site.Data.papers.working_papers }}
-    <h3>Working Papers</h3>
-    <ul class="paper-list" role="list">
-      {{ range . }}
-      <li class="paper-item">
-        <div class="paper-title">
-          {{ if .pdf }}<a href="{{ .pdf }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}
-          <span class="status-badge">{{ .status }}</span>
-        </div>
-        <div class="paper-authors">{{ .authors }}</div>
-        <div class="paper-desc">{{ .description }}</div>
-      </li>
-      {{ end }}
-    </ul>
-    {{ end }}
-
+    <p class="research-note">I am currently working on several projects on media coverage of legislators and political knowledge. Details will be shared as papers progress toward submission.</p>
   </div>
 </section>
 
@@ -129,6 +105,14 @@
         <span class="edu-year">2023–2026</span>
       </li>
     </ul>
+  </div>
+</section>
+
+<!-- BLOG -->
+<section class="section" id="blog">
+  <div class="container">
+    <h2>Blog</h2>
+    <p class="research-note">Coming soon — I plan to write about data science, survey experiments, and political methodology.</p>
   </div>
 </section>
 
